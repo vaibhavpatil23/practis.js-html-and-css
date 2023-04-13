@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+
+}
+.hero-imag{
+    background-image: url(https://images.unsplash.com/photo-1612927601601-6638404737ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    height: 100vh;
+    background-size: cover;
+    background-position: no-repeat;
+    position: relative;
+
+}
+.hero-wrapper{
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.hero-wrapper span{
+    margin-left: 5rem;
+    display: inline block;
+    margin-bottom: 5rem;
+}
+.hero-wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.form .post{
+    display: block;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius:2rem;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.form button{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+
+}

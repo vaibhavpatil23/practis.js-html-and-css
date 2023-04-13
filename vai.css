@@ -1,0 +1,24 @@
+.card{
+    border: 1px solid black;
+    border-radius: 17px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    transition: 3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card:hover{
+    transition: 3s;
+    
+}
+.img{
+    /* height: 160px; */
+    width: 100%;
+    border-radius: 12px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
